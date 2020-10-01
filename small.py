@@ -7,6 +7,14 @@ def count(start, end, interval):
         start += interval
 
 
+def count2(start, end, interval):
+    numbers = []
+    for i in range(start, end, interval):
+        numbers.append(i)
+
+    return numbers
+
+
 def main():
     cc = count(1, 1337, 21)
     for c in cc:
